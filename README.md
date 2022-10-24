@@ -5,10 +5,10 @@
 
 
 🚩 Cardio Vascular Data Mining (2022 상반기 프로젝트)  
-🚩 Pytorch AI - EEG Signal (2022 상반기 프로젝트)
-🚩 데이콘 - KOSPI 기반 분석 시각화 경진대회 (공모전)
-🚩 United States 인구 / 지역 간 관계 분석 (연습)
-🚩 CDC 제공 생년월일 데이터 분석 (연습)
+🚩 Pytorch AI - EEG Signal (2022 상반기 프로젝트)  
+🚩 데이콘 - KOSPI 기반 분석 시각화 경진대회 (공모전)  
+🚩 United States 인구 / 지역 간 관계 분석 (연습)  
+🚩 CDC 제공 생년월일 데이터 분석 (연습)  
 🚩 Fremont bridge 따릉이 분석 (연습)  
 🚩 COVID-19 데이터 분석 (연습)  
 
