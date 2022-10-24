@@ -4,22 +4,23 @@
 - 2022.10.24 현재까지 수행한 프로젝트와 공모전은 다음과 같습니다.<br>  
 
 
-🚩 Cardio Vascular Data Mining (2022 상반기 프로젝트)  
-🚩 Pytorch AI - EEG Signal (2022 상반기 프로젝트)  
-🚩 데이콘 - KOSPI 기반 분석 시각화 경진대회 (공모전)  
+  🚩 Cardio Vascular Data Mining (2022 상반기 프로젝트)  
+  🚩 Pytorch AI - EEG Signal (2022 상반기 프로젝트)  
+  🚩 데이콘 - KOSPI 기반 분석 시각화 경진대회 (공모전)<br>  
 
-🚩 United States 인구 / 지역 간 관계 분석 (연습)  
-🚩 Planets 데이터를 사용한 관계 해석 / 시각화 (연습)
-🚩 CDC 제공 생년월일 데이터 분석 (연습)  
-🚩 Fremont bridge 따릉이 분석 (연습)  
-🚩 COVID-19 데이터 분석 (연습)  
+
+  🚩 United States 인구 / 지역 간 관계 분석 (연습)  
+  🚩 Planets 데이터를 사용한 관계 해석 / 시각화 (연습)  
+  🚩 CDC 제공 생년월일 데이터 분석 (연습)  
+  🚩 Fremont bridge 따릉이 분석 (연습)  
+  🚩 COVID-19 데이터 분석 (연습)  
 
 <br>  
 
 - 2022년도 하반기 프로젝트 일정은 다음과 같습니다.  
 
-🚩 바이오인포메틱스 프로젝트 (Linux)  
-🚩 파이낸스 어낼리틱스 선형회귀 프로젝트 (R)  
+  🚩 바이오인포메틱스 프로젝트 (Linux)  
+  🚩 파이낸스 어낼리틱스 선형회귀 프로젝트 (R)  
 
 <br>  
 
