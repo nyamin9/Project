@@ -9,7 +9,7 @@
  
 📈 이를 위해 선택한 경제적 지표는 아래와 같다.  
 
-  - 1. 소비자물가지수 (종속변수) : [KOSIS 소비자물가지수, 20221102] (https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1J20003&vw_cd=MT_ZTITLE&list_id=P2_6&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+  - 1. 소비자물가지수 (종속변수) : [KOSIS 소비자물가지수, 20221102](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1J20003&vw_cd=MT_ZTITLE&list_id=P2_6&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
   - 2. 국제수지 (정량) : KOSIS 경상수지, 20221103 (https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y013&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
   - 3. 국제유가 도입가 (정량) : KOSIS 국제유가, 20221018 (https://kosis.kr/statHtml/statHtml.do?orgId=392&tblId=DT_AA123&vw_cd=MT_ZTITLE&list_id=T_21&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
   - 4. 경상수지 (정량) : KOSIS 경상수지, 20221111 (https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y017&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
