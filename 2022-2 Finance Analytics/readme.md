@@ -10,15 +10,15 @@
 📈 이를 위해 선택한 경제적 지표는 아래와 같다.  
 
   - 1. 소비자물가지수 (종속변수) : [KOSIS 소비자물가지수, 20221102](https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1J20003&vw_cd=MT_ZTITLE&list_id=P2_6&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
-  - 2. 국제수지 (정량) : KOSIS 경상수지, 20221103 (https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y013&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
-  - 3. 국제유가 도입가 (정량) : KOSIS 국제유가, 20221018 (https://kosis.kr/statHtml/statHtml.do?orgId=392&tblId=DT_AA123&vw_cd=MT_ZTITLE&list_id=T_21&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
-  - 4. 경상수지 (정량) : KOSIS 경상수지, 20221111 (https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y017&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
-  - 5. 상품수지 (정량) : KOSIS 상품수지, 20221111 (https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y017&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
-  - 6. 무역수지 (정량) : KOSIS 수출입총괄, 20221021 (https://kosis.kr/statHtml/statHtml.do?orgId=134&tblId=DT_134001_001&vw_cd=MT_ZTITLE&list_id=&scrId=&seqNo=&lang_mode=ko&obj_var_id=&itm_id=&conn_path=E1&docId=0388621915&markType=S&itmNm=%EC%A0%84%EA%B5%AD)
-  - 7. 기준금리 (정량) : 한국은행 기준금리 추이 (https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643)
-  - 8. 환율 (정량) : 환율 (USD/KRW) ,20221103 (https://kr.investing.com/currencies/usd-krw-historical-data)
-  - 9. 코스피지수 (정량) : 코스피지수 ,20221103 (https://kr.investing.com/indices/kospi-historical-data)
-  - 10. COFIX 금리 (정량) : 은행연합회 소비자포털 COFIX 금리, 20221111 (https://portal.kfb.or.kr/fingoods/cofix.php)
+  - 2. 국제수지 (정량) : [KOSIS 경상수지, 20221103](https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y013&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+  - 3. 국제유가 도입가 (정량) : [KOSIS 국제유가, 20221018](https://kosis.kr/statHtml/statHtml.do?orgId=392&tblId=DT_AA123&vw_cd=MT_ZTITLE&list_id=T_21&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+  - 4. 경상수지 (정량) : [KOSIS 경상수지, 20221111](https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y017&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+  - 5. 상품수지 (정량) : [KOSIS 상품수지, 20221111](https://kosis.kr/statHtml/statHtml.do?orgId=301&tblId=DT_301Y017&vw_cd=MT_ZTITLE&list_id=S2_301008_001&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+  - 6. 무역수지 (정량) : [KOSIS 수출입총괄, 20221021](https://kosis.kr/statHtml/statHtml.do?orgId=134&tblId=DT_134001_001&vw_cd=MT_ZTITLE&list_id=&scrId=&seqNo=&lang_mode=ko&obj_var_id=&itm_id=&conn_path=E1&docId=0388621915&markType=S&itmNm=%EC%A0%84%EA%B5%AD)
+  - 7. 기준금리 (정량) : [한국은행 기준금리 추이](https://www.bok.or.kr/portal/singl/baseRate/list.do?dataSeCd=01&menuNo=200643)
+  - 8. 환율 (정량) : [환율 (USD/KRW) ,20221103](https://kr.investing.com/currencies/usd-krw-historical-data)
+  - 9. 코스피지수 (정량) : [코스피지수 ,20221103](https://kr.investing.com/indices/kospi-historical-data)
+  - 10. COFIX 금리 (정량) : [은행연합회 소비자포털 COFIX 금리, 20221111](https://portal.kfb.or.kr/fingoods/cofix.php)
   - 11. 코로나 발생 여부 (binary) : 2019~2021년도에는 COVID = 1 로 매핑하였음.  
 <br>  
 <br>  
