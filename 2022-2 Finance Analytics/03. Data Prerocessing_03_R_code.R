@@ -103,4 +103,4 @@ data <- full_join(data,data_m,by="시점")
 
 data 
 
-write.csv(data, file="물가 데이터_최종.csv", fileEncoding = 'CP949')
+write.csv(data, file="물가 데이터_최종.csv", fileEncoding = 'CP949', row.names = FALSE)
