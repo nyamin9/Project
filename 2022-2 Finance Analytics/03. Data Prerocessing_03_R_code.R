@@ -1,7 +1,6 @@
 ############################################################################
-##################### 2022 파이낸스 어낼리틱스 4조  ##########################
+##### 2022 파이낸스 어낼리틱스 4조 201800308 강민구 _ 201902732 이윤지 #####
 ############################################################################
-
 # 경로 지정(working directory)
 setwd("C:/Users/mingu/Desktop/Finance Analytics Data")
 
@@ -11,6 +10,7 @@ b <- read.csv("국제유가_도입현황_20221103191120.csv", fileEncoding = 'eu
 c <- read.csv("소비자물가지수_2020100__20221103190937.csv", fileEncoding = 'euc-kr')
 d <- read.csv("수출입총괄_20221103200616.csv", fileEncoding = 'euc-kr')
 g <- read.csv("한국은행 기준금리.csv", fileEncoding = 'euc-kr')
+
 
 library(dplyr)
 
@@ -37,21 +37,39 @@ str(g1)
 g2 <- g1 %>% select(시점,기준금리)
 
 
-##### 민구 : 코스피, 환율, 유가, 코로나 발생여부, COFIX 금리
-##### 윤지 : 경상수지, 상품수지, 무역수지, 전기요금, 물가지수, 기준금리
+##### 민구 : 코스피, 환율, 유가, 코로나 발생여부, 소비자 동향지수, COFIX 금리
+##### 윤지 : 경상수지, 상품수지, 무역수지, 물가지수, 기준금리
 
 data <- a %>% filter(as.numeric(substr(시점, 1,4))<2022) %>% select(시점, 경상수지, 상품수지) 
-data$무역수지 <- d %>% filter(as.numeric(substr(시점, 1,4))<2022) %>% select(무역수지) 
-data$물가지수 <- c %>% filter(as.numeric(substr(시점,1,4))<2022) %>% select(물가지수)
+data1 <- d %>% filter(as.numeric(substr(시점, 1,4))<2022) %>% select(시점, 무역수지) 
+data2 <- c %>% filter(as.numeric(substr(시점,1,4))<2022) %>% select(시점, 물가지수)
 
 data$시점 <- as.character(data$시점)
+data1$시점 <- as.character(data1$시점)
+data2$시점 <- as.character(data2$시점)
+
 for(i in 1:length(data$시점)){
   if(nchar(data$시점[i])==6){
     data$시점[i] <- paste(data$시점[i],"0",sep="")
   }
 }
 
+for(i in 1:length(data1$시점)){
+  if(nchar(data1$시점[i])==6){
+    data1$시점[i] <- paste(data1$시점[i],"0",sep="")
+  }
+}
+
+for(i in 1:length(data2$시점)){
+  if(nchar(data2$시점[i])==6){
+    data2$시점[i] <- paste(data2$시점[i],"0",sep="")
+  }
+}
+
 data <- left_join(data,g2,by='시점')
+data <- left_join(data,data1,by='시점')
+data <- left_join(data,data2,by='시점')
+
 for(i in 1:length(data$시점)){
   if(is.na(data$기준금리[i])){
     if(i<11){data$기준금리[i] <- data$기준금리[11]}
@@ -83,4 +101,6 @@ for(i in 1:length(data_m$시점)){
 
 data <- full_join(data,data_m,by="시점")
 
-data
+data 
+
+write.csv(data, file="물가 데이터_최종.csv", fileEncoding = 'CP949')
