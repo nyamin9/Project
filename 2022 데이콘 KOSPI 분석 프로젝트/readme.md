@@ -67,4 +67,4 @@
 
 ## 🏆 대회 인증서  
 
-<p align="center"><img src="https://github.com/nyamin9/Data-Mining/files/10072848/455684_D000022110701.pdf" width="1000" /></p><br>  
+<p align="center"><img src="https://user-images.githubusercontent.com/65170165/203471196-d162aa0d-36b0-4680-a293-0852455cf4f3.jpg" width="1000" /></p><br>  
