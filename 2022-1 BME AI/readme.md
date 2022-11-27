@@ -43,7 +43,9 @@
 
 ## 🧠 분석결과  
 
-☑️ EEG 신호가 sequential data이기 때문에, 전반적으로 높은 예측을 보여줄 것이라 생각한 RNN모델을 사용하였습니다. 수업시간에 다룬 3가지 방법(vanila RNN, GRU, LSTM) 중에서 LSTM 이 가장 좋은 퍼포먼스를 보여주었기 때문에 LSTM을 선택했습니다.  
+☑️ EEG 신호가 sequential data이기 때문에, 전반적으로 높은 예측을 보여줄 것이라 생각한 RNN모델을 사용하였습니다. 수업시간에 다룬 3가지 방법(vanila RNN, GRU, LSTM) 중에서 LSTM 이 가장 좋은 퍼포먼스를 보여주었기 때문에 LSTM을 선택했습니다. Accuracy Curve는 아래와 같이 높은 예측 점수를 가지는 결과를 보였습니다.  
+
+<p align="center"><img src="https://user-images.githubusercontent.com/65170165/204117227-3badc2f8-8aa2-4742-9ca7-08014a2bce5b.png" width="800" /></p>
 
 ☑️ 만들고자 하는 모델은 사용자의 EEG sequence를 넣었을때 그 사람이 어떤 상태(간질발작-0, 종양-1, 건강-2)에 놓여있는지를 파악하는 모델입니다. 측정을 위한 전극의 위치나 개수를 고려하여 이미 한번 셔플한 데이터였지만, 보다 랜덤한 표본을 통해 모델을 학습시키기 위해서 임의의 랜덤한 부분에서 120개의 신호를 가져올 수 있도록 data_iter와 모델을 설계하였습니다. 이는 inference부분에도 동일하게 구현하였습니다.  
 
