@@ -15,7 +15,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/65170165/204089837-d22d287f-1bb5-49ae-b5cb-4de1c07dd495.png" width="500" /></p>  
 
 <p align="center">연령별 전신발작, 부분발작의 발생빈도, 1935-1984</p>  
-<p align="center">미네소타 로체스터(Epilepsia 1992:33[suppl4]:99)</p>  
+<p align="center">미네소타 로체스터(Epilepsia 1992:33[suppl4]:99)</p>   
 
 <br>  
 
