@@ -78,8 +78,10 @@
 --- | ---
 Epileptic_Seizures (0) | 0.966
 Tumor (1) | 0.652
-Normal (2) | 0.871
-  
+Normal (2) | 0.871  
+
+<br>  
+
 
 ## 🧠 배운 점  
 
