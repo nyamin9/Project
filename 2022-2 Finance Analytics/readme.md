@@ -19,7 +19,7 @@
   - 환율 (정량) : [환율 (USD/KRW) ,20221103](https://kr.investing.com/currencies/usd-krw-historical-data)
   - 코스피지수 (정량) : [코스피지수 ,20221103](https://kr.investing.com/indices/kospi-historical-data)
   - COFIX 금리 (정량) : [은행연합회 소비자포털 COFIX 금리, 20221111](https://portal.kfb.or.kr/fingoods/cofix.php)
-  - 코로나 발생 여부 : 월별 확진자 수  
+  - 코로나19 확진자 수 : [질병관리청 코로나바이러스19 누적 확진자 통계](https://ncov.kdca.go.kr/)  
 <br>  
 <br>  
 
