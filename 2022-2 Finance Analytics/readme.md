@@ -129,7 +129,9 @@
   - 최종 모델 생성  
   - 잔차플롯 / QQ plot / standarded residual plot / leverage plot 을 통한 모델 평가  
   
-- [x] 💻 12/01 프로젝트 발표
+- [x] 💻 12/01 프로젝트 발표  
+
+- [x] 💻 12/09 프로젝트 최종 보고서 작성
   
 <br>    
 
