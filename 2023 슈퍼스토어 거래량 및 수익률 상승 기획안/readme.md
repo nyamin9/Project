@@ -35,6 +35,17 @@
 
 <br>  
 
+
+## 📶 대시보드  
+
+<br>  
+
+
+<p align="center"><img src= "https://user-images.githubusercontent.com/65170165/219589522-2ef411e3-0f4b-4a2c-88fb-3ec2bd2dda2d.png"></p>  
+
+<br>  
+
+
  
 
 ## 📶 설정 지표 및 평가  
@@ -122,16 +133,7 @@
 
 <br>  
 
-  
-
-## 📶 대시보드  
-
-<br>  
-
-
-<p align="center"><img src= "https://user-images.githubusercontent.com/65170165/219589522-2ef411e3-0f4b-4a2c-88fb-3ec2bd2dda2d.png"></p>  
-
-<br>  
+    
 
 
 ## 📶 원인분석  
